@@ -11,13 +11,13 @@ def is_enabled(value, default):
         return default
 
 # Mandatory variables for the bot to start
-API_ID = int(os.environ.get("API_ID", "977080"))
-API_HASH = os.environ.get("API_HASH", "0c20c4265501492a1513f91755acd42b")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN")
-OWNER_ID = int(os.environ.get("OWNER_ID", "399726799"))
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://abcd:abcd@cluster0.cii4jll.mongodb.net/?retryWrites=true&w=majority")
+API_ID = int(os.environ.get("API_ID", 17760082""))
+API_HASH = os.environ.get("API_HASH", "c3fc3cd44886967cf3c0e8585b5cad1c")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7213949258:AAEY9mFQlooQpAy9ZsA4JLchiR82DrfMJ8E")
+OWNER_ID = int(os.environ.get("OWNER_ID", "1809710185"))
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Dsfile:JU9fcHq3jjRLyLt9@cluster0.pizky.mongodb.netdb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "WebNotificationBot")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001363692085"))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002028221888"))
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "serials_notify_bot")
 BROADCAST_AS_COPY = is_enabled(os.environ.get("BROADCAST_AS_COPY", "True"), True)
 
